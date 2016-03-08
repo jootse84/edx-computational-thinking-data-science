@@ -2,12 +2,14 @@
 
 Consider the function below:  
 
+```python
 def lotsOfParameters1(a,b,c,d,e):  
     print a  
     print b  
     print c  
     print d  
     print e  
+```
 
 Which of the following function calls will result in an error?  
 
@@ -29,12 +31,14 @@ V - lotsOfParameters1(e=5,a=1,d=4,b=2,c=3)
 
 Consider the function below:  
 
+```python
 def lotsOfParameters2(a=1,b=2,c=3,d=4,e=5):  
     print a  
     print b  
     print c  
     print d  
     print e  
+```
 
 Which of the following function calls will result in an error?  
 
@@ -53,12 +57,14 @@ lotsOfParameters2() & lotsOfParameters2(1,2,3,4)
 
 Consider the function below:  
 
+```python
 def lotsOfParameters3(a,b,c=3,d=4,e=5):  
     print a  
     print b  
     print c  
     print d  
     print e  
+```
 
 Which of the following function calls will result in an error?  
 
